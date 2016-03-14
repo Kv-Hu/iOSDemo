@@ -1,4 +1,4 @@
-#+TITLE: README
+#+TITLE: iOS Step by Step
 #+AUTHOR: amoblin
 #+EMAIL: <amoblin@gmail.com>
 #+DATE: <2016-03-07 13:36:56>
@@ -7,11 +7,11 @@
 # This file is created by Marboo<http://marboo.io> template file $MARBOO_HOME/.media/starts/default.org
 # 本文件由 Marboo<http://marboo.io> 模板文件 $MARBOO_HOME/.media/starts/default.org 创建
 
-* 熟悉Xcode的基本使用，能够创建一个空白工程，在模拟器中运行起来
+** 熟悉Xcode的基本使用，能够创建一个空白工程，在模拟器中运行起来
 上周二 9:55 - 10：52
-* 向界面中添加Label、Button、TextView等控件，并关联到ViewController代码中
+** 向界面中添加Label、Button、TextView等控件，并关联到ViewController代码中
 上周二 10：56 - 周三 14：50
-* 增加事件处理，点击Button后改变Button的显示内容，使用ARC。
+** 增加事件处理，点击Button后改变Button的显示内容，使用ARC。
 上周三 14：56 - 周一 10：03
-* 注册GitHub账号，学习Git使用，把代码放到GitHub上。
+** 注册GitHub账号，学习Git使用，把代码放到GitHub上。
 <2016-03-07 Mon 13:40> - 
