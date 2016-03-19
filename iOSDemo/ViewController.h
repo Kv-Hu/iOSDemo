@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction)compute;
+@property(nonatomic,weak) IBOutlet UITextField*num1;
+@property(nonatomic,weak) IBOutlet UITextField*num2;
+@property(nonatomic,weak) IBOutlet UILabel*sumLabel;
+
 
 @end
 

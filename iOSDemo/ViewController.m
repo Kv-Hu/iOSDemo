@@ -14,14 +14,21 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (void)compute
+{
+    
+    NSString *str1 = self.num1.text;
+    NSString *str2 = self.num2.text;
+    int result = str1.intValue + str2.intValue;
+    self.sumLabel.text = [NSString stringWithFormat:@"%d",result];
+    
+    [self.view endEditing:YES];
+    
+    
+    
+    
+    
+    
+    
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end
