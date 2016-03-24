@@ -36,6 +36,14 @@
 			<key>IDESourceControlWCCName</key>
 			<string>iOSDemo</string>
 		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5C9691A3-A4E5-4534-B989-54A1F57DA900</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSDemo</string>
+		</dict>
 	</array>
 </dict>
 </plist>
