@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>C语言之函数的嵌套.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>基础 C 语言学习.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0A0D94341CA53D3A0021A68C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0A6B73051CA41B0100611AD8</key>
 		<dict>
 			<key>primary</key>

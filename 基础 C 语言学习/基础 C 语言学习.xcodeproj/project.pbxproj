@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0D94381CA53D3A0021A68C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D94371CA53D3A0021A68C /* main.c */; };
+		0A0D943A1CA53D3A0021A68C /* C________.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A0D94391CA53D3A0021A68C /* C________.1 */; };
 		0A6B730A1CA41B0100611AD8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B73091CA41B0100611AD8 /* main.c */; };
 		0A6B730C1CA41B0100611AD8 /* ___C_____.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A6B730B1CA41B0100611AD8 /* ___C_____.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0A0D94331CA53D3A0021A68C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0A0D943A1CA53D3A0021A68C /* C________.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0A6B73041CA41B0100611AD8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -25,12 +37,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A0D94351CA53D3A0021A68C /* C语言之函数的嵌套 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C语言之函数的嵌套"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0D94371CA53D3A0021A68C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0A0D94391CA53D3A0021A68C /* C________.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "C________.1"; sourceTree = "<group>"; };
 		0A6B73061CA41B0100611AD8 /* 基础 C 语言学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "基础 C 语言学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6B73091CA41B0100611AD8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0A6B730B1CA41B0100611AD8 /* ___C_____.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "___C_____.1"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A0D94321CA53D3A0021A68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A6B73031CA41B0100611AD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +63,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A0D94361CA53D3A0021A68C /* C语言之函数的嵌套 */ = {
+			isa = PBXGroup;
+			children = (
+				0A0D94371CA53D3A0021A68C /* main.c */,
+				0A0D94391CA53D3A0021A68C /* C________.1 */,
+			);
+			path = "C语言之函数的嵌套";
+			sourceTree = "<group>";
+		};
 		0A6B72FD1CA41B0100611AD8 = {
 			isa = PBXGroup;
 			children = (
 				0A6B73081CA41B0100611AD8 /* 基础 C 语言学习 */,
+				0A0D94361CA53D3A0021A68C /* C语言之函数的嵌套 */,
 				0A6B73071CA41B0100611AD8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				0A6B73061CA41B0100611AD8 /* 基础 C 语言学习 */,
+				0A0D94351CA53D3A0021A68C /* C语言之函数的嵌套 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +102,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0A0D94341CA53D3A0021A68C /* C语言之函数的嵌套 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0D943D1CA53D3A0021A68C /* Build configuration list for PBXNativeTarget "C语言之函数的嵌套" */;
+			buildPhases = (
+				0A0D94311CA53D3A0021A68C /* Sources */,
+				0A0D94321CA53D3A0021A68C /* Frameworks */,
+				0A0D94331CA53D3A0021A68C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C语言之函数的嵌套";
+			productName = "C语言之函数的嵌套";
+			productReference = 0A0D94351CA53D3A0021A68C /* C语言之函数的嵌套 */;
+			productType = "com.apple.product-type.tool";
+		};
 		0A6B73051CA41B0100611AD8 /* 基础 C 语言学习 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A6B730F1CA41B0100611AD8 /* Build configuration list for PBXNativeTarget "基础 C 语言学习" */;
@@ -108,11 +158,20 @@
 			projectRoot = "";
 			targets = (
 				0A6B73051CA41B0100611AD8 /* 基础 C 语言学习 */,
+				0A0D94341CA53D3A0021A68C /* C语言之函数的嵌套 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A0D94311CA53D3A0021A68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0D94381CA53D3A0021A68C /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A6B73021CA41B0100611AD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,6 +183,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0A0D943B1CA53D3A0021A68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A0D943C1CA53D3A0021A68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0A6B730D1CA41B0100611AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -211,6 +288,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A0D943D1CA53D3A0021A68C /* Build configuration list for PBXNativeTarget "C语言之函数的嵌套" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0D943B1CA53D3A0021A68C /* Debug */,
+				0A0D943C1CA53D3A0021A68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0A6B73011CA41B0100611AD8 /* Build configuration list for PBXProject "基础 C 语言学习" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -227,6 +312,7 @@
 				0A6B73111CA41B0100611AD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
