@@ -11,6 +11,9 @@
 		0A0D943A1CA53D3A0021A68C /* C________.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A0D94391CA53D3A0021A68C /* C________.1 */; };
 		0A0D94451CA5475F0021A68C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D94441CA5475F0021A68C /* main.c */; };
 		0A0D94471CA5475F0021A68C /* ________________.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A0D94461CA5475F0021A68C /* ________________.1 */; };
+		0A0D945C1CA5703C0021A68C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D945B1CA5703C0021A68C /* main.c */; };
+		0A0D946B1CA573C80021A68C /* jisuan.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D946A1CA573C80021A68C /* jisuan.c */; };
+		0A0D946E1CA574F20021A68C /* zanshi.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D946D1CA574F20021A68C /* zanshi.c */; };
 		0A6B730A1CA41B0100611AD8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B73091CA41B0100611AD8 /* main.c */; };
 		0A6B730C1CA41B0100611AD8 /* ___C_____.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A6B730B1CA41B0100611AD8 /* ___C_____.1 */; };
 /* End PBXBuildFile section */
@@ -36,6 +39,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0A0D94571CA5703B0021A68C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0A6B73041CA41B0100611AD8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,6 +67,12 @@
 		0A0D94421CA5475F0021A68C /* 用函数 打印 任意指定行的之心啊 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "用函数 打印 任意指定行的之心啊"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0D94441CA5475F0021A68C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0A0D94461CA5475F0021A68C /* ________________.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "________________.1"; sourceTree = "<group>"; };
+		0A0D94591CA5703B0021A68C /* 多头文件开发 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "多头文件开发"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0D945B1CA5703C0021A68C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0A0D946A1CA573C80021A68C /* jisuan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jisuan.c; sourceTree = "<group>"; };
+		0A0D946C1CA573DD0021A68C /* jisuan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jisuan.h; sourceTree = "<group>"; };
+		0A0D946D1CA574F20021A68C /* zanshi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zanshi.c; sourceTree = "<group>"; };
+		0A0D946F1CA575030021A68C /* zanshi .h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "zanshi .h"; sourceTree = "<group>"; };
 		0A6B73061CA41B0100611AD8 /* 基础 C 语言学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "基础 C 语言学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6B73091CA41B0100611AD8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0A6B730B1CA41B0100611AD8 /* ___C_____.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "___C_____.1"; sourceTree = "<group>"; };
@@ -69,6 +87,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0A0D943F1CA5475F0021A68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0D94561CA5703B0021A68C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -103,12 +128,25 @@
 			path = "用函数 打印 任意指定行的之心啊";
 			sourceTree = "<group>";
 		};
+		0A0D945A1CA5703C0021A68C /* 多头文件开发 */ = {
+			isa = PBXGroup;
+			children = (
+				0A0D945B1CA5703C0021A68C /* main.c */,
+				0A0D946A1CA573C80021A68C /* jisuan.c */,
+				0A0D946C1CA573DD0021A68C /* jisuan.h */,
+				0A0D946D1CA574F20021A68C /* zanshi.c */,
+				0A0D946F1CA575030021A68C /* zanshi .h */,
+			);
+			path = "多头文件开发";
+			sourceTree = "<group>";
+		};
 		0A6B72FD1CA41B0100611AD8 = {
 			isa = PBXGroup;
 			children = (
 				0A6B73081CA41B0100611AD8 /* 基础 C 语言学习 */,
 				0A0D94361CA53D3A0021A68C /* C语言之函数的嵌套 */,
 				0A0D94431CA5475F0021A68C /* 用函数 打印 任意指定行的之心啊 */,
+				0A0D945A1CA5703C0021A68C /* 多头文件开发 */,
 				0A6B73071CA41B0100611AD8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,6 +157,7 @@
 				0A6B73061CA41B0100611AD8 /* 基础 C 语言学习 */,
 				0A0D94351CA53D3A0021A68C /* C语言之函数的嵌套 */,
 				0A0D94421CA5475F0021A68C /* 用函数 打印 任意指定行的之心啊 */,
+				0A0D94591CA5703B0021A68C /* 多头文件开发 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,6 +208,23 @@
 			productReference = 0A0D94421CA5475F0021A68C /* 用函数 打印 任意指定行的之心啊 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0A0D94581CA5703B0021A68C /* 多头文件开发 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0D945F1CA5703C0021A68C /* Build configuration list for PBXNativeTarget "多头文件开发" */;
+			buildPhases = (
+				0A0D94551CA5703B0021A68C /* Sources */,
+				0A0D94561CA5703B0021A68C /* Frameworks */,
+				0A0D94571CA5703B0021A68C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多头文件开发";
+			productName = "多头文件开发";
+			productReference = 0A0D94591CA5703B0021A68C /* 多头文件开发 */;
+			productType = "com.apple.product-type.tool";
+		};
 		0A6B73051CA41B0100611AD8 /* 基础 C 语言学习 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A6B730F1CA41B0100611AD8 /* Build configuration list for PBXNativeTarget "基础 C 语言学习" */;
@@ -210,6 +266,7 @@
 				0A6B73051CA41B0100611AD8 /* 基础 C 语言学习 */,
 				0A0D94341CA53D3A0021A68C /* C语言之函数的嵌套 */,
 				0A0D94411CA5475F0021A68C /* 用函数 打印 任意指定行的之心啊 */,
+				0A0D94581CA5703B0021A68C /* 多头文件开发 */,
 			);
 		};
 /* End PBXProject section */
@@ -228,6 +285,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0D94451CA5475F0021A68C /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0D94551CA5703B0021A68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0D945C1CA5703C0021A68C /* main.c in Sources */,
+				0A0D946E1CA574F20021A68C /* zanshi.c in Sources */,
+				0A0D946B1CA573C80021A68C /* jisuan.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +339,24 @@
 			name = Debug;
 		};
 		0A0D944A1CA5475F0021A68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A0D94601CA5703C0021A68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A0D94611CA5703C0021A68C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,6 +463,14 @@
 			buildConfigurations = (
 				0A0D94491CA5475F0021A68C /* Debug */,
 				0A0D944A1CA5475F0021A68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A0D945F1CA5703C0021A68C /* Build configuration list for PBXNativeTarget "多头文件开发" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0D94601CA5703C0021A68C /* Debug */,
+				0A0D94611CA5703C0021A68C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

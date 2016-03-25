@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>多头文件开发.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>用函数 打印 任意指定行的之心啊 copy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>0A0D944B1CA5476C0021A68C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A0D94581CA5703B0021A68C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
