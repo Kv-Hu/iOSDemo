@@ -14,10 +14,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>用函数 打印 任意指定行的之心啊 copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>用函数 打印 任意指定行的之心啊.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0A0D94341CA53D3A0021A68C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A0D94411CA5475F0021A68C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A0D944B1CA5476C0021A68C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

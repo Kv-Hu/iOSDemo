@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0A0D94381CA53D3A0021A68C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D94371CA53D3A0021A68C /* main.c */; };
 		0A0D943A1CA53D3A0021A68C /* C________.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A0D94391CA53D3A0021A68C /* C________.1 */; };
+		0A0D94451CA5475F0021A68C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D94441CA5475F0021A68C /* main.c */; };
+		0A0D94471CA5475F0021A68C /* ________________.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A0D94461CA5475F0021A68C /* ________________.1 */; };
 		0A6B730A1CA41B0100611AD8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B73091CA41B0100611AD8 /* main.c */; };
 		0A6B730C1CA41B0100611AD8 /* ___C_____.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A6B730B1CA41B0100611AD8 /* ___C_____.1 */; };
 /* End PBXBuildFile section */
@@ -21,6 +23,16 @@
 			dstSubfolderSpec = 0;
 			files = (
 				0A0D943A1CA53D3A0021A68C /* C________.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0A0D94401CA5475F0021A68C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0A0D94471CA5475F0021A68C /* ________________.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -40,6 +52,9 @@
 		0A0D94351CA53D3A0021A68C /* C语言之函数的嵌套 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C语言之函数的嵌套"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0D94371CA53D3A0021A68C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0A0D94391CA53D3A0021A68C /* C________.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "C________.1"; sourceTree = "<group>"; };
+		0A0D94421CA5475F0021A68C /* 用函数 打印 任意指定行的之心啊 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "用函数 打印 任意指定行的之心啊"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0D94441CA5475F0021A68C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0A0D94461CA5475F0021A68C /* ________________.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "________________.1"; sourceTree = "<group>"; };
 		0A6B73061CA41B0100611AD8 /* 基础 C 语言学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "基础 C 语言学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6B73091CA41B0100611AD8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0A6B730B1CA41B0100611AD8 /* ___C_____.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "___C_____.1"; sourceTree = "<group>"; };
@@ -47,6 +62,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		0A0D94321CA53D3A0021A68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0D943F1CA5475F0021A68C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,11 +94,21 @@
 			path = "C语言之函数的嵌套";
 			sourceTree = "<group>";
 		};
+		0A0D94431CA5475F0021A68C /* 用函数 打印 任意指定行的之心啊 */ = {
+			isa = PBXGroup;
+			children = (
+				0A0D94441CA5475F0021A68C /* main.c */,
+				0A0D94461CA5475F0021A68C /* ________________.1 */,
+			);
+			path = "用函数 打印 任意指定行的之心啊";
+			sourceTree = "<group>";
+		};
 		0A6B72FD1CA41B0100611AD8 = {
 			isa = PBXGroup;
 			children = (
 				0A6B73081CA41B0100611AD8 /* 基础 C 语言学习 */,
 				0A0D94361CA53D3A0021A68C /* C语言之函数的嵌套 */,
+				0A0D94431CA5475F0021A68C /* 用函数 打印 任意指定行的之心啊 */,
 				0A6B73071CA41B0100611AD8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +118,7 @@
 			children = (
 				0A6B73061CA41B0100611AD8 /* 基础 C 语言学习 */,
 				0A0D94351CA53D3A0021A68C /* C语言之函数的嵌套 */,
+				0A0D94421CA5475F0021A68C /* 用函数 打印 任意指定行的之心啊 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +150,23 @@
 			name = "C语言之函数的嵌套";
 			productName = "C语言之函数的嵌套";
 			productReference = 0A0D94351CA53D3A0021A68C /* C语言之函数的嵌套 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0A0D94411CA5475F0021A68C /* 用函数 打印 任意指定行的之心啊 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0D94481CA5475F0021A68C /* Build configuration list for PBXNativeTarget "用函数 打印 任意指定行的之心啊" */;
+			buildPhases = (
+				0A0D943E1CA5475F0021A68C /* Sources */,
+				0A0D943F1CA5475F0021A68C /* Frameworks */,
+				0A0D94401CA5475F0021A68C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "用函数 打印 任意指定行的之心啊";
+			productName = "用函数 打印 任意指定行的之心啊";
+			productReference = 0A0D94421CA5475F0021A68C /* 用函数 打印 任意指定行的之心啊 */;
 			productType = "com.apple.product-type.tool";
 		};
 		0A6B73051CA41B0100611AD8 /* 基础 C 语言学习 */ = {
@@ -159,6 +209,7 @@
 			targets = (
 				0A6B73051CA41B0100611AD8 /* 基础 C 语言学习 */,
 				0A0D94341CA53D3A0021A68C /* C语言之函数的嵌套 */,
+				0A0D94411CA5475F0021A68C /* 用函数 打印 任意指定行的之心啊 */,
 			);
 		};
 /* End PBXProject section */
@@ -169,6 +220,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0D94381CA53D3A0021A68C /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0D943E1CA5475F0021A68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0D94451CA5475F0021A68C /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +254,24 @@
 			name = Debug;
 		};
 		0A0D943C1CA53D3A0021A68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A0D94491CA5475F0021A68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A0D944A1CA5475F0021A68C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,6 +370,14 @@
 			buildConfigurations = (
 				0A0D943B1CA53D3A0021A68C /* Debug */,
 				0A0D943C1CA53D3A0021A68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A0D94481CA5475F0021A68C /* Build configuration list for PBXNativeTarget "用函数 打印 任意指定行的之心啊" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0D94491CA5475F0021A68C /* Debug */,
+				0A0D944A1CA5475F0021A68C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
