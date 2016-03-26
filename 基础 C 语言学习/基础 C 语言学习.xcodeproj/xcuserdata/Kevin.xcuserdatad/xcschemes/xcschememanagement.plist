@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>冒泡排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>基础 C 语言学习.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,21 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>数 组.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>数组.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>数组名 作为函数的参数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>用函数 打印 任意指定行的之心啊 copy.xcscheme</key>
 		<dict>
@@ -48,6 +68,26 @@
 			<true/>
 		</dict>
 		<key>0A0D94581CA5703B0021A68C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A0D94731CA698510021A68C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A0D94801CA6A1070021A68C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A0D948D1CA6A47E0021A68C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A0D949A1CA6BD630021A68C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
