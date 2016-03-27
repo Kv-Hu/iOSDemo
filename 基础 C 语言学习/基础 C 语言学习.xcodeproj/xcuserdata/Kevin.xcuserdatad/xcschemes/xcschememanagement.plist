@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>指针  交换两个数字.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>数 组.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -103,6 +108,11 @@
 			<true/>
 		</dict>
 		<key>0AC264CB1CA80A1100EB9E0C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AC264D81CA80E4C00EB9E0C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
