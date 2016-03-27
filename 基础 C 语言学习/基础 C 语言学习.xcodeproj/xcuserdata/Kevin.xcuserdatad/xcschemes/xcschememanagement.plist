@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>指针  四则运算.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>数 组.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -113,6 +118,11 @@
 			<true/>
 		</dict>
 		<key>0AC264D81CA80E4C00EB9E0C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AC264E51CA810C300EB9E0C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
