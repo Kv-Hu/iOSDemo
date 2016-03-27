@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>字符串.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>数 组.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -93,6 +98,11 @@
 			<true/>
 		</dict>
 		<key>0A6B73051CA41B0100611AD8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AC264CB1CA80A1100EB9E0C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
