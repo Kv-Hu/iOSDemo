@@ -9,12 +9,14 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UIView *shopView;
+
+@property (weak, nonatomic) IBOutlet UIView *shopsView;
 
 @end
 
 @implementation ViewController
--(void)clickButtonWithImage:(NSString *)image highImage:(NSString *)highImage disabledImage:(NSString *)disabledImage  frame:(CGRect)frame action:(SEL)action{
+-(void)clickButtonWithImage:(NSString *)image highImage:(NSString *)highImage disabledImage:(NSString *)disabledImage  frame:(CGRect)frame action:(SEL)action
+{
 
     //创建clickButton
     UIButton *btn = [[UIButton alloc]init];
@@ -66,12 +68,12 @@
 }
 
 -(void)add{
-    
+
     //添加图片
     UIImageView *iconImage = [[UIImageView alloc] init];
     iconImage.image = [UIImage imageNamed:@"danjianbao"];
     iconImage.frame = CGRectMake(20, 20, 50, 50);
-    [self.shopView addSubview:iconImage];
+    [self.shopsView addSubview:iconImage];
     
     //添加文字
     UILabel *label = [[UILabel alloc] init];
@@ -80,7 +82,7 @@
     label.text = @"单肩包";
     label.font = [UIFont systemFontOfSize:11];
     label.textAlignment = NSTextAlignmentCenter;
-    [self.shopView addSubview:label];
+    [self.shopsView addSubview:label];
     
     
 }
