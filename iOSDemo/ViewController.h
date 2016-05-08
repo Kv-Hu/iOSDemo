@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class KVAddCaculater;
+@class KVShopsView;
+@class KVShopView;
+@class KVShop;
 @interface ViewController : UIViewController
 
--(IBAction)compute;
-@property(nonatomic,weak) IBOutlet UITextField*num1;
-@property(nonatomic,weak) IBOutlet UITextField*num2;
-@property(nonatomic,weak) IBOutlet UILabel*sumLabel;
+@property (weak, nonatomic) IBOutlet UIView *shopsView;
+@property (weak, nonatomic)  UIButton *addBtn;
+@property (weak, nonatomic)  UIButton *removeBtn;
 
 
 @end

@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>DEBC4585-9747-43E4-AFBC-7E0D81119F80</string>
+	<string>668CF732-822F-4B25-89ED-1C09F2EADECE</string>
 	<key>IDESourceControlProjectName</key>
 	<string>iOSDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -28,14 +28,6 @@
 	<string>5C9691A3-A4E5-4534-B989-54A1F57DA900</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5C9691A3-A4E5-4534-B989-54A1F57DA900</string>
-			<key>IDESourceControlWCCName</key>
-			<string>iOSDemo</string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

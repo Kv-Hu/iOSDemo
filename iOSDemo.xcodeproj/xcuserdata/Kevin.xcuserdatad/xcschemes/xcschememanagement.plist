@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>linkList.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>DA22F58F1CDB983A0037BB29</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DADA406A1C96554E00D693E1</key>
 		<dict>
 			<key>primary</key>

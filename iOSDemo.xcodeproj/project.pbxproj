@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4261651CDCBB4800B11A59 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A4261641CDCBB4800B11A59 /* stack.c */; };
+		0A4261671CDCC25400B11A59 /* KVAddCaculater.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4261661CDCC25400B11A59 /* KVAddCaculater.xib */; };
+		0A42616A1CDCC6F900B11A59 /* KVAddCaculater.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4261691CDCC6F900B11A59 /* KVAddCaculater.m */; };
+		0A6808BF1CDF2FD300023AF1 /* KVShopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6808BE1CDF2FD300023AF1 /* KVShopView.xib */; };
+		0A6808C21CDF30DF00023AF1 /* KVShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6808C11CDF30DF00023AF1 /* KVShopView.m */; };
+		0A97BA6D1CDF54DC004DEB57 /* shops.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A97BA6C1CDF54DC004DEB57 /* shops.plist */; };
+		0A97BA701CDF550A004DEB57 /* KVShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A97BA6F1CDF550A004DEB57 /* KVShop.m */; };
 		DA22F5931CDB983A0037BB29 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DA22F5921CDB983A0037BB29 /* main.c */; };
 		DA22F5991CDB98540037BB29 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = DA22F5971CDB98540037BB29 /* list.c */; };
 		DADA40701C96554E00D693E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA406F1C96554E00D693E1 /* main.m */; };
@@ -30,6 +37,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A4261631CDCBB3700B11A59 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stack.h; path = linklist/stack.h; sourceTree = SOURCE_ROOT; };
+		0A4261641CDCBB4800B11A59 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stack.c; path = linklist/stack.c; sourceTree = SOURCE_ROOT; };
+		0A4261661CDCC25400B11A59 /* KVAddCaculater.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVAddCaculater.xib; sourceTree = "<group>"; };
+		0A4261681CDCC6F900B11A59 /* KVAddCaculater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVAddCaculater.h; sourceTree = "<group>"; };
+		0A4261691CDCC6F900B11A59 /* KVAddCaculater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVAddCaculater.m; sourceTree = "<group>"; };
+		0A6808BE1CDF2FD300023AF1 /* KVShopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVShopView.xib; sourceTree = "<group>"; };
+		0A6808C01CDF30DF00023AF1 /* KVShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVShopView.h; sourceTree = "<group>"; };
+		0A6808C11CDF30DF00023AF1 /* KVShopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVShopView.m; sourceTree = "<group>"; };
+		0A97BA6C1CDF54DC004DEB57 /* shops.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = shops.plist; path = "../../../IOS Step/大神班/01-UI基础/0529scrollview/0529scrollview/代码/01-综合使用02-xib+封装/03-综合使用/shops.plist"; sourceTree = "<group>"; };
+		0A97BA6E1CDF550A004DEB57 /* KVShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVShop.h; sourceTree = "<group>"; };
+		0A97BA6F1CDF550A004DEB57 /* KVShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVShop.m; sourceTree = "<group>"; };
 		DA22F5901CDB983A0037BB29 /* linkList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = linkList; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA22F5921CDB983A0037BB29 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DA22F5971CDB98540037BB29 /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
@@ -70,6 +88,8 @@
 				DA22F5921CDB983A0037BB29 /* main.c */,
 				DA22F5971CDB98540037BB29 /* list.c */,
 				DA22F5981CDB98540037BB29 /* list.h */,
+				0A4261641CDCBB4800B11A59 /* stack.c */,
+				0A4261631CDCBB3700B11A59 /* stack.h */,
 			);
 			path = linkList;
 			sourceTree = "<group>";
@@ -95,14 +115,19 @@
 		DADA406D1C96554E00D693E1 /* iOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0A4261661CDCC25400B11A59 /* KVAddCaculater.xib */,
+				0A4261681CDCC6F900B11A59 /* KVAddCaculater.h */,
+				0A4261691CDCC6F900B11A59 /* KVAddCaculater.m */,
 				DADA40711C96554E00D693E1 /* AppDelegate.h */,
 				DADA40721C96554E00D693E1 /* AppDelegate.m */,
 				DADA40741C96554E00D693E1 /* ViewController.h */,
 				DADA40751C96554E00D693E1 /* ViewController.m */,
 				DADA40771C96554E00D693E1 /* Main.storyboard */,
-				DADA407A1C96554E00D693E1 /* Assets.xcassets */,
-				DADA407C1C96554E00D693E1 /* LaunchScreen.storyboard */,
-				DADA407F1C96554E00D693E1 /* Info.plist */,
+				0A6808BE1CDF2FD300023AF1 /* KVShopView.xib */,
+				0A6808C01CDF30DF00023AF1 /* KVShopView.h */,
+				0A6808C11CDF30DF00023AF1 /* KVShopView.m */,
+				0A97BA6E1CDF550A004DEB57 /* KVShop.h */,
+				0A97BA6F1CDF550A004DEB57 /* KVShop.m */,
 				DADA406E1C96554E00D693E1 /* Supporting Files */,
 			);
 			path = iOSDemo;
@@ -111,6 +136,10 @@
 		DADA406E1C96554E00D693E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0A97BA6C1CDF54DC004DEB57 /* shops.plist */,
+				DADA407A1C96554E00D693E1 /* Assets.xcassets */,
+				DADA407C1C96554E00D693E1 /* LaunchScreen.storyboard */,
+				DADA407F1C96554E00D693E1 /* Info.plist */,
 				DADA406F1C96554E00D693E1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -159,8 +188,9 @@
 		DADA40631C96554E00D693E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KV;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = didi;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					DA22F58F1CDB983A0037BB29 = {
 						CreatedOnToolsVersion = 7.3;
@@ -194,9 +224,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4261671CDCC25400B11A59 /* KVAddCaculater.xib in Resources */,
 				DADA407E1C96554E00D693E1 /* LaunchScreen.storyboard in Resources */,
+				0A97BA6D1CDF54DC004DEB57 /* shops.plist in Resources */,
 				DADA407B1C96554E00D693E1 /* Assets.xcassets in Resources */,
 				DADA40791C96554E00D693E1 /* Main.storyboard in Resources */,
+				0A6808BF1CDF2FD300023AF1 /* KVShopView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4261651CDCBB4800B11A59 /* stack.c in Sources */,
 				DA22F5931CDB983A0037BB29 /* main.c in Sources */,
 				DA22F5991CDB98540037BB29 /* list.c in Sources */,
 			);
@@ -217,8 +251,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DADA40761C96554E00D693E1 /* ViewController.m in Sources */,
+				0A42616A1CDCC6F900B11A59 /* KVAddCaculater.m in Sources */,
 				DADA40731C96554E00D693E1 /* AppDelegate.m in Sources */,
 				DADA40701C96554E00D693E1 /* main.m in Sources */,
+				0A97BA701CDF550A004DEB57 /* KVShop.m in Sources */,
+				0A6808C21CDF30DF00023AF1 /* KVShopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +286,9 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_IDENTITY = "-";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
@@ -260,9 +297,9 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CODE_SIGN_IDENTITY = "-";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};
@@ -382,6 +419,7 @@
 				DA22F5951CDB983A0037BB29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DADA40661C96554E00D693E1 /* Build configuration list for PBXProject "iOSDemo" */ = {
 			isa = XCConfigurationList;
