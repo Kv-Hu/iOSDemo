@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A4261651CDCBB4800B11A59 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A4261641CDCBB4800B11A59 /* stack.c */; };
 		0A4261671CDCC25400B11A59 /* KVAddCaculater.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4261661CDCC25400B11A59 /* KVAddCaculater.xib */; };
 		0A42616A1CDCC6F900B11A59 /* KVAddCaculater.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4261691CDCC6F900B11A59 /* KVAddCaculater.m */; };
 		0A6808BF1CDF2FD300023AF1 /* KVShopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6808BE1CDF2FD300023AF1 /* KVShopView.xib */; };
 		0A6808C21CDF30DF00023AF1 /* KVShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6808C11CDF30DF00023AF1 /* KVShopView.m */; };
+		0A8EFAEF1CE45D9E008B950C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A8EFAEE1CE45D9E008B950C /* main.c */; };
+		0A8EFAF71CE45E55008B950C /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A8EFAF61CE45E55008B950C /* list.c */; };
+		0A8EFAFA1CE45E86008B950C /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A8EFAF91CE45E86008B950C /* stack.c */; };
 		0A97BA6D1CDF54DC004DEB57 /* shops.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A97BA6C1CDF54DC004DEB57 /* shops.plist */; };
 		0A97BA701CDF550A004DEB57 /* KVShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A97BA6F1CDF550A004DEB57 /* KVShop.m */; };
-		DA22F5931CDB983A0037BB29 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DA22F5921CDB983A0037BB29 /* main.c */; };
-		DA22F5991CDB98540037BB29 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = DA22F5971CDB98540037BB29 /* list.c */; };
 		DADA40701C96554E00D693E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA406F1C96554E00D693E1 /* main.m */; };
 		DADA40731C96554E00D693E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA40721C96554E00D693E1 /* AppDelegate.m */; };
 		DADA40761C96554E00D693E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA40751C96554E00D693E1 /* ViewController.m */; };
@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DA22F58E1CDB983A0037BB29 /* CopyFiles */ = {
+		0A8EFAEA1CE45D9E008B950C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -37,21 +37,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A4261631CDCBB3700B11A59 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stack.h; path = linklist/stack.h; sourceTree = SOURCE_ROOT; };
-		0A4261641CDCBB4800B11A59 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stack.c; path = linklist/stack.c; sourceTree = SOURCE_ROOT; };
 		0A4261661CDCC25400B11A59 /* KVAddCaculater.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVAddCaculater.xib; sourceTree = "<group>"; };
 		0A4261681CDCC6F900B11A59 /* KVAddCaculater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVAddCaculater.h; sourceTree = "<group>"; };
 		0A4261691CDCC6F900B11A59 /* KVAddCaculater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVAddCaculater.m; sourceTree = "<group>"; };
 		0A6808BE1CDF2FD300023AF1 /* KVShopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVShopView.xib; sourceTree = "<group>"; };
 		0A6808C01CDF30DF00023AF1 /* KVShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVShopView.h; sourceTree = "<group>"; };
 		0A6808C11CDF30DF00023AF1 /* KVShopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVShopView.m; sourceTree = "<group>"; };
+		0A8EFAEC1CE45D9E008B950C /* CommandLineTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandLineTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8EFAEE1CE45D9E008B950C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0A8EFAF51CE45E48008B950C /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		0A8EFAF61CE45E55008B950C /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
+		0A8EFAF81CE45E7A008B950C /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		0A8EFAF91CE45E86008B950C /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 		0A97BA6C1CDF54DC004DEB57 /* shops.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = shops.plist; path = "../../../IOS Step/大神班/01-UI基础/0529scrollview/0529scrollview/代码/01-综合使用02-xib+封装/03-综合使用/shops.plist"; sourceTree = "<group>"; };
 		0A97BA6E1CDF550A004DEB57 /* KVShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVShop.h; sourceTree = "<group>"; };
 		0A97BA6F1CDF550A004DEB57 /* KVShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVShop.m; sourceTree = "<group>"; };
-		DA22F5901CDB983A0037BB29 /* linkList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = linkList; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA22F5921CDB983A0037BB29 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		DA22F5971CDB98540037BB29 /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = list.c; sourceTree = "<group>"; };
-		DA22F5981CDB98540037BB29 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
 		DADA406B1C96554E00D693E1 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADA406F1C96554E00D693E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DADA40711C96554E00D693E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DA22F58D1CDB983A0037BB29 /* Frameworks */ = {
+		0A8EFAE91CE45D9E008B950C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,23 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA22F5911CDB983A0037BB29 /* linkList */ = {
+		0A8EFAED1CE45D9E008B950C /* CommandLineTool */ = {
 			isa = PBXGroup;
 			children = (
-				DA22F5921CDB983A0037BB29 /* main.c */,
-				DA22F5971CDB98540037BB29 /* list.c */,
-				DA22F5981CDB98540037BB29 /* list.h */,
-				0A4261641CDCBB4800B11A59 /* stack.c */,
-				0A4261631CDCBB3700B11A59 /* stack.h */,
+				0A8EFAEE1CE45D9E008B950C /* main.c */,
+				0A8EFAF51CE45E48008B950C /* list.h */,
+				0A8EFAF61CE45E55008B950C /* list.c */,
+				0A8EFAF81CE45E7A008B950C /* stack.h */,
+				0A8EFAF91CE45E86008B950C /* stack.c */,
 			);
-			path = linkList;
+			path = CommandLineTool;
 			sourceTree = "<group>";
 		};
 		DADA40621C96554E00D693E1 = {
 			isa = PBXGroup;
 			children = (
 				DADA406D1C96554E00D693E1 /* iOSDemo */,
-				DA22F5911CDB983A0037BB29 /* linkList */,
+				0A8EFAED1CE45D9E008B950C /* CommandLineTool */,
 				DADA406C1C96554E00D693E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				DADA406B1C96554E00D693E1 /* iOSDemo.app */,
-				DA22F5901CDB983A0037BB29 /* linkList */,
+				0A8EFAEC1CE45D9E008B950C /* CommandLineTool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,21 +148,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA22F58F1CDB983A0037BB29 /* linkList */ = {
+		0A8EFAEB1CE45D9E008B950C /* CommandLineTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA22F5961CDB983A0037BB29 /* Build configuration list for PBXNativeTarget "linkList" */;
+			buildConfigurationList = 0A8EFAF21CE45D9E008B950C /* Build configuration list for PBXNativeTarget "CommandLineTool" */;
 			buildPhases = (
-				DA22F58C1CDB983A0037BB29 /* Sources */,
-				DA22F58D1CDB983A0037BB29 /* Frameworks */,
-				DA22F58E1CDB983A0037BB29 /* CopyFiles */,
+				0A8EFAE81CE45D9E008B950C /* Sources */,
+				0A8EFAE91CE45D9E008B950C /* Frameworks */,
+				0A8EFAEA1CE45D9E008B950C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = linkList;
-			productName = linkList;
-			productReference = DA22F5901CDB983A0037BB29 /* linkList */;
+			name = CommandLineTool;
+			productName = CommandLineTool;
+			productReference = 0A8EFAEC1CE45D9E008B950C /* CommandLineTool */;
 			productType = "com.apple.product-type.tool";
 		};
 		DADA406A1C96554E00D693E1 /* iOSDemo */ = {
@@ -192,9 +192,6 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
-					DA22F58F1CDB983A0037BB29 = {
-						CreatedOnToolsVersion = 7.3;
-					};
 					DADA406A1C96554E00D693E1 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -214,7 +211,7 @@
 			projectRoot = "";
 			targets = (
 				DADA406A1C96554E00D693E1 /* iOSDemo */,
-				DA22F58F1CDB983A0037BB29 /* linkList */,
+				0A8EFAEB1CE45D9E008B950C /* CommandLineTool */,
 			);
 		};
 /* End PBXProject section */
@@ -236,13 +233,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DA22F58C1CDB983A0037BB29 /* Sources */ = {
+		0A8EFAE81CE45D9E008B950C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A4261651CDCBB4800B11A59 /* stack.c in Sources */,
-				DA22F5931CDB983A0037BB29 /* main.c in Sources */,
-				DA22F5991CDB98540037BB29 /* list.c in Sources */,
+				0A8EFAFA1CE45E86008B950C /* stack.c in Sources */,
+				0A8EFAEF1CE45D9E008B950C /* main.c in Sources */,
+				0A8EFAF71CE45E55008B950C /* list.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,25 +278,29 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DA22F5941CDB983A0037BB29 /* Debug */ = {
+		0A8EFAF31CE45D9E008B950C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "-";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		DA22F5951CDB983A0037BB29 /* Release */ = {
+		0A8EFAF41CE45D9E008B950C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -412,14 +413,13 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA22F5961CDB983A0037BB29 /* Build configuration list for PBXNativeTarget "linkList" */ = {
+		0A8EFAF21CE45D9E008B950C /* Build configuration list for PBXNativeTarget "CommandLineTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA22F5941CDB983A0037BB29 /* Debug */,
-				DA22F5951CDB983A0037BB29 /* Release */,
+				0A8EFAF31CE45D9E008B950C /* Debug */,
+				0A8EFAF41CE45D9E008B950C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		DADA40661C96554E00D693E1 /* Build configuration list for PBXProject "iOSDemo" */ = {
 			isa = XCConfigurationList;

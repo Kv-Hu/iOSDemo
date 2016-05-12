@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A8EFADE1CE45D1E008B950C"
-               BuildableName = "linklist"
-               BlueprintName = "linklist"
+               BlueprintIdentifier = "0A8EFAEB1CE45D9E008B950C"
+               BuildableName = "CommandLineTool"
+               BlueprintName = "CommandLineTool"
                ReferencedContainer = "container:iOSDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A8EFADE1CE45D1E008B950C"
-            BuildableName = "linklist"
-            BlueprintName = "linklist"
+            BlueprintIdentifier = "0A8EFAEB1CE45D9E008B950C"
+            BuildableName = "CommandLineTool"
+            BlueprintName = "CommandLineTool"
             ReferencedContainer = "container:iOSDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -51,9 +51,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A8EFADE1CE45D1E008B950C"
-            BuildableName = "linklist"
-            BlueprintName = "linklist"
+            BlueprintIdentifier = "0A8EFAEB1CE45D9E008B950C"
+            BuildableName = "CommandLineTool"
+            BlueprintName = "CommandLineTool"
             ReferencedContainer = "container:iOSDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -69,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A8EFADE1CE45D1E008B950C"
-            BuildableName = "linklist"
-            BlueprintName = "linklist"
+            BlueprintIdentifier = "0A8EFAEB1CE45D9E008B950C"
+            BuildableName = "CommandLineTool"
+            BlueprintName = "CommandLineTool"
             ReferencedContainer = "container:iOSDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
