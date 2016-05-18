@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DADA406A1C96554E00D693E1"
-               BuildableName = "iOSDemo.app"
-               BlueprintName = "iOSDemo"
+               BlueprintIdentifier = "0AA2F27C1CEB05B4003F9155"
+               BuildableName = "tableView.app"
+               BlueprintName = "tableView"
                ReferencedContainer = "container:iOSDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,23 +28,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0ACBBB1C1CEBEE3200309F7A"
-               BuildableName = "tableViewTests.xctest"
-               BlueprintName = "tableViewTests"
-               ReferencedContainer = "container:iOSDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DADA406A1C96554E00D693E1"
-            BuildableName = "iOSDemo.app"
-            BlueprintName = "iOSDemo"
+            BlueprintIdentifier = "0AA2F27C1CEB05B4003F9155"
+            BuildableName = "tableView.app"
+            BlueprintName = "tableView"
             ReferencedContainer = "container:iOSDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,9 +51,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DADA406A1C96554E00D693E1"
-            BuildableName = "iOSDemo.app"
-            BlueprintName = "iOSDemo"
+            BlueprintIdentifier = "0AA2F27C1CEB05B4003F9155"
+            BuildableName = "tableView.app"
+            BlueprintName = "tableView"
             ReferencedContainer = "container:iOSDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -79,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DADA406A1C96554E00D693E1"
-            BuildableName = "iOSDemo.app"
-            BlueprintName = "iOSDemo"
+            BlueprintIdentifier = "0AA2F27C1CEB05B4003F9155"
+            BuildableName = "tableView.app"
+            BlueprintName = "tableView"
             ReferencedContainer = "container:iOSDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

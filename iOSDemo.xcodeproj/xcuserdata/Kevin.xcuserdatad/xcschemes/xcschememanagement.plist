@@ -7,7 +7,7 @@
 		<key>CommandLineTool.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>iOSDemo.xcscheme</key>
 		<dict>
@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>tableView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -33,6 +38,36 @@
 			<true/>
 		</dict>
 		<key>0A8EFAEB1CE45D9E008B950C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AA2F27C1CEB05B4003F9155</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AA2F29C1CEB05B5003F9155</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AA2F2B51CEB06B2003F9155</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AA2F2D11CEB06B2003F9155</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0ACBBB001CEBEE3100309F7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0ACBBB1C1CEBEE3200309F7A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

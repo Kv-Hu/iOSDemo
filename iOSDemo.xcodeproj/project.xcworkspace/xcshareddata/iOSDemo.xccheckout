@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A31D8D05-D841-4A26-88EC-D9E835C2E026</string>
+	<string>50A33DA0-2C30-441C-BB82-53F6678BC2E4</string>
 	<key>IDESourceControlProjectName</key>
 	<string>iOSDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>5C9691A3-A4E5-4534-B989-54A1F57DA900</key>
-		<string>https://github.com/Kv-Hu/iOSDemo.git</string>
+		<key>E07BC0E4-9028-43F5-AC97-4B2A3688EAE9</key>
+		<string>https://github.com/Kv-Hu/iOSDemo</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>iOSDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>5C9691A3-A4E5-4534-B989-54A1F57DA900</key>
+		<key>E07BC0E4-9028-43F5-AC97-4B2A3688EAE9</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Kv-Hu/iOSDemo.git</string>
+	<string>https://github.com/Kv-Hu/iOSDemo</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5C9691A3-A4E5-4534-B989-54A1F57DA900</string>
+	<string>E07BC0E4-9028-43F5-AC97-4B2A3688EAE9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5C9691A3-A4E5-4534-B989-54A1F57DA900</string>
+			<string>E07BC0E4-9028-43F5-AC97-4B2A3688EAE9</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOSDemo</string>
 		</dict>
