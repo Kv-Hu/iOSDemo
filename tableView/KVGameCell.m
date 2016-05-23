@@ -36,6 +36,7 @@
         UILabel *numberLabel = [[UILabel alloc] init];
         numberLabel.textColor = [UIColor grayColor];
         [self.contentView addSubview:numberLabel];
+        
         self.numberLabel = numberLabel;
         
         UIImageView *gameIcon = [[UIImageView alloc] init];
@@ -56,7 +57,7 @@
         
         UIImageView *levelIcon = [[UIImageView alloc] init];
         [self.contentView addSubview:levelIcon];
-        self.LevelIcon = levelIcon;
+        self.levelIcon = levelIcon;
         
         UILabel *buyNumberLabel = [[UILabel alloc] init];
         buyNumberLabel.textColor = [UIColor grayColor];
@@ -141,7 +142,6 @@
 -(void)setGame:(KVGame *)game{
 
     _game = game;
-    
     self.numberLabel.text = game.number;
     self.gameIcon.image = [UIImage imageNamed:game.icon];
     self.titleLabel.text = game.title;

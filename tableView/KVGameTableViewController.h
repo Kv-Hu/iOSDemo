@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 @class KVGame;
 @class KVGameCell;
-@interface KVGameTableViewController : UITableViewController
+@interface KVGameTableViewController : UIViewController
 
 @end
