@@ -15,6 +15,7 @@
 @property(strong,nonatomic) NSMutableArray *games;
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong,nonatomic) NSMutableArray *deletedGames;
 @end
 
 @implementation KVGameTableViewController
@@ -39,11 +40,11 @@
 }
 
 
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
- //[self.tableView registerClass:[KVGameCell class] forCellReuseIdentifier:@"cell"];
+    //允许在编辑模式下进行多选操作
+    self.tableView.allowsMultipleSelectionDuringEditing = YES;
 }
 
 //添加新数据
@@ -87,7 +88,37 @@ int i = 0;
     [self presentViewController:alert animated:YES completion:nil];
 }
 
+//批量操作
+- (IBAction)multiOperation:(UIButton *)sender {
+    
+    [self.tableView setEditing:!self.tableView.isEditing animated:YES];
+    
+}
 
+//删除批量选中的cell
+- (IBAction)multiRemove{
+    //获得被选中的行
+    NSArray *indexPaths = [self.tableView indexPathsForSelectedRows];
+    //遍历所有的行号
+    NSMutableArray *deletedGames = [NSMutableArray array];
+    for (NSIndexPath *path in indexPaths) {
+        [deletedGames addObject:self.games[path.row]];
+    }
+    //删除所选中的模型
+    [self.games removeObjectsInArray:deletedGames];
+    [self.tableView reloadData];
+    
+}
+- (IBAction)Remove2:(UIButton *)sender {
+    
+    NSMutableArray *deletedGames = [NSMutableArray array];
+    for (KVGame *game in self.games) {
+        if(game.isChecked)[deletedGames addObject:game];
+    }
+    [self.games removeObjectsInArray:deletedGames];
+    [self.tableView reloadData];
+    
+}
 
 
 #pragma mark - DataSourceDelegte
@@ -125,7 +156,16 @@ int i = 0;
     }
     
     }
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    //取消选中这一行
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    //将模型的打钩属性取反
+    KVGame *game = self.games[indexPath.row];
+    game.checked = !game.isChecked;
+    [tableView reloadData];
+    
 
+}
 
 
 @end

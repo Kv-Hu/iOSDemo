@@ -12,6 +12,9 @@
 @class KVGameCell;
 
 @interface KVGameCell : UITableViewCell
+@property(strong,nonatomic) UIImageView *checkView;
+
+
 
 @property(strong,nonatomic) KVGame *game;
 

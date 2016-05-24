@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cBi-r7-DL9">
-                                <rect key="frame" x="0.0" y="59" width="320" height="421"/>
+                                <rect key="frame" x="0.0" y="73" width="320" height="407"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="RQS-cI-nD5" id="wL3-WS-ACK"/>
@@ -28,17 +28,8 @@
                             <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VXT-Hy-dU3">
                                 <rect key="frame" x="0.0" y="20" width="320" height="39"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtK-mk-HnE">
-                                        <rect key="frame" x="249" y="5" width="30" height="30"/>
-                                        <state key="normal" title="删除">
-                                            <color key="titleColor" red="1" green="0.14173887369999999" blue="0.094420088599999993" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="remove:" destination="RQS-cI-nD5" eventType="touchUpInside" id="1vf-UV-3Lk"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyB-yL-Fby">
-                                        <rect key="frame" x="29" y="5" width="30" height="30"/>
+                                        <rect key="frame" x="0.0" y="-5" width="30" height="30"/>
                                         <state key="normal" title="添加">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -47,19 +38,55 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEF-ql-Aay">
-                                        <rect key="frame" x="83" y="5" width="30" height="30"/>
+                                        <rect key="frame" x="0.0" y="17" width="30" height="30"/>
                                         <state key="normal" title="更新"/>
                                         <connections>
                                             <action selector="upDate:" destination="RQS-cI-nD5" eventType="touchUpInside" id="T70-nj-SxY"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9z-Q7-YeW">
-                                        <rect key="frame" x="145" y="5" width="30" height="30"/>
+                                        <rect key="frame" x="38" y="-5" width="30" height="30"/>
                                         <state key="normal" title="弹窗">
                                             <color key="titleColor" red="0.94039467737217652" green="0.15493937795996737" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="addAlert" destination="RQS-cI-nD5" eventType="touchUpInside" id="Tvs-Qi-V79"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAm-YB-oko">
+                                        <rect key="frame" x="38" y="17" width="60" height="30"/>
+                                        <state key="normal" title="批量操作">
+                                            <color key="titleColor" red="0.16402860890000001" green="0.31579089700000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="multiOperation:" destination="RQS-cI-nD5" eventType="touchUpInside" id="AdL-es-lXL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtK-mk-HnE">
+                                        <rect key="frame" x="290" y="-5" width="30" height="30"/>
+                                        <state key="normal" title="删除">
+                                            <color key="titleColor" red="1" green="0.14173887369999999" blue="0.094420088599999993" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="remove:" destination="RQS-cI-nD5" eventType="touchUpInside" id="1vf-UV-3Lk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tE-a5-75y">
+                                        <rect key="frame" x="106" y="17" width="60" height="30"/>
+                                        <state key="normal" title="删除批量">
+                                            <color key="titleColor" red="1" green="0.14173887369999999" blue="0.094420088599999993" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="multiRemove" destination="RQS-cI-nD5" eventType="touchUpInside" id="QL3-6v-LzW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82e-ps-43b">
+                                        <rect key="frame" x="188" y="17" width="55" height="30"/>
+                                        <state key="normal" title="Remove">
+                                            <color key="titleColor" red="1" green="0.14173887369999999" blue="0.094420088599999993" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Remove2:" destination="RQS-cI-nD5" eventType="touchUpInside" id="iUI-hr-byj"/>
                                         </connections>
                                     </button>
                                 </subviews>

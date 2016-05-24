@@ -26,5 +26,7 @@
 
 @property(strong,nonatomic) NSString *buyIntro;
 
+@property (assign,nonatomic,getter=isChecked) BOOL checked;
+
 +(instancetype)gameWithDict:(NSDictionary *)dict;
 @end

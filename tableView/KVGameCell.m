@@ -32,6 +32,11 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
+        UIImageView *checkView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"check"]];
+        
+        [self.contentView addSubview:checkView];
+        self.checkView = checkView;
+        
         
         UILabel *numberLabel = [[UILabel alloc] init];
         numberLabel.textColor = [UIColor grayColor];
@@ -85,6 +90,12 @@
     CGFloat contentH = self.contentView.frame.size.height;
     CGFloat contentW = self.contentView.frame.size.width;
     CGFloat margin = 10;
+    
+    CGFloat checkViewW = 50;
+    CGFloat checkViewH = 50;
+    CGFloat checkViewX = self.frame.size.width - checkViewW - margin;
+    CGFloat checkViewY = self.frame.size.height - checkViewH - margin;
+    self.checkView.frame = CGRectMake(checkViewX, checkViewY, checkViewW, checkViewH);
     
     CGFloat numberLabelX = margin;
     CGFloat numberLabelY = margin;
@@ -150,6 +161,9 @@
     self.buyNumberLabel.text = game.buyNumber;
     self.moneyIcon.image = [UIImage imageNamed:game.moneyIcon];
     self.buyItroLabel.text = game.buyIntro;
+    
+    //设置打钩控件的显示和隐藏
+    self.checkView.hidden = !game.isChecked;
 
 }
 
