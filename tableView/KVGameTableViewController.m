@@ -92,9 +92,7 @@ int i = 0;
 - (IBAction)multiOperation:(UIButton *)sender {
     
     [self.tableView setEditing:!self.tableView.isEditing animated:YES];
-    
 }
-
 //删除批量选中的cell
 - (IBAction)multiRemove{
     //获得被选中的行
@@ -119,15 +117,11 @@ int i = 0;
     [self.tableView reloadData];
     
 }
-
-
 #pragma mark - DataSourceDelegte
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 
     return self.games.count;
 }
-
-
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
@@ -140,12 +134,9 @@ int i = 0;
        cell = [[KVGameCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
       
     }
-    
-     cell.game = self.games[indexPath.row];
+         cell.game = self.games[indexPath.row];
     return cell;
 }
-
-
 #pragma mark  <UITableViewDelegate>
 
 //左滑删除
@@ -153,8 +144,7 @@ int i = 0;
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         [self.games removeObjectAtIndex:indexPath.row];
         [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationLeft];
-    }
-    
+        }
     }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     //取消选中这一行
@@ -163,8 +153,6 @@ int i = 0;
     KVGame *game = self.games[indexPath.row];
     game.checked = !game.isChecked;
     [tableView reloadData];
-    
-
 }
 
 
