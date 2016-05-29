@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  chattingTableview
+//  codeOnly_chatting
 //
-//  Created by Kevin on 16/5/26.
+//  Created by Kevin on 16/5/29.
 //
 //
 

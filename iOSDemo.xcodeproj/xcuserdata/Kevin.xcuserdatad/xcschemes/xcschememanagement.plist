@@ -17,6 +17,16 @@
 		<key>chattingTableview.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>codeOnly_chatting.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>codeOnly_chattingTableView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
 		<key>iOSDemo.xcscheme</key>
@@ -103,6 +113,16 @@
 			<true/>
 		</dict>
 		<key>0ACBBB1C1CEBEE3200309F7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AFF3E001CFB1118000D7BBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AFF3E1B1CFB1158000D7BBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
