@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>UICollectionView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>chattingTableView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -83,6 +88,16 @@
 			<true/>
 		</dict>
 		<key>0AA2F2D11CEB06B2003F9155</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AA524041D056C5700E76CCB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AA524211D056DD100E76CCB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
