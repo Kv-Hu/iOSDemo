@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3264CD1D11712500D23AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3264CC1D11712500D23AE3 /* Assets.xcassets */; };
+		0A3264D01D11712500D23AE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3264CE1D11712500D23AE3 /* LaunchScreen.storyboard */; };
+		0A3264F41D11714C00D23AE3 /* KVAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3264DB1D11714C00D23AE3 /* KVAddViewController.m */; };
+		0A3264F51D11714C00D23AE3 /* KVContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3264E11D11714C00D23AE3 /* KVContactViewController.m */; };
+		0A3264F61D11714C00D23AE3 /* KVContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3264E41D11714C00D23AE3 /* KVContact.m */; };
+		0A3264F71D11714C00D23AE3 /* KVLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3264ED1D11714C00D23AE3 /* KVLoginViewController.m */; };
+		0A3264F81D11714C00D23AE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3264F21D11714C00D23AE3 /* AppDelegate.m */; };
+		0A3264F91D11714C00D23AE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3264F31D11714C00D23AE3 /* main.m */; };
+		0A3264FB1D11715500D23AE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3264FA1D11715500D23AE3 /* Main.storyboard */; };
+		0A3265021D11718900D23AE3 /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3264FE1D11718900D23AE3 /* MBProgressHUD+XMG.m */; };
+		0A3265031D11718900D23AE3 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A3264FF1D11718900D23AE3 /* MBProgressHUD.bundle */; };
+		0A3265041D11718900D23AE3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3265011D11718900D23AE3 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A3264BD1D11712500D23AE3 /* contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3264CC1D11712500D23AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A3264CF1D11712500D23AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A3264D11D11712500D23AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3264DA1D11714C00D23AE3 /* KVAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVAddViewController.h; sourceTree = "<group>"; };
+		0A3264DB1D11714C00D23AE3 /* KVAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVAddViewController.m; sourceTree = "<group>"; };
+		0A3264E01D11714C00D23AE3 /* KVContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVContactViewController.h; sourceTree = "<group>"; };
+		0A3264E11D11714C00D23AE3 /* KVContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVContactViewController.m; sourceTree = "<group>"; };
+		0A3264E31D11714C00D23AE3 /* KVContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVContact.h; sourceTree = "<group>"; };
+		0A3264E41D11714C00D23AE3 /* KVContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVContact.m; sourceTree = "<group>"; };
+		0A3264EC1D11714C00D23AE3 /* KVLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVLoginViewController.h; sourceTree = "<group>"; };
+		0A3264ED1D11714C00D23AE3 /* KVLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVLoginViewController.m; sourceTree = "<group>"; };
+		0A3264F11D11714C00D23AE3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A3264F21D11714C00D23AE3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A3264F31D11714C00D23AE3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A3264FA1D11715500D23AE3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Classes/Main.storyboard; sourceTree = "<group>"; };
+		0A3264FD1D11718900D23AE3 /* MBProgressHUD+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XMG.h"; sourceTree = "<group>"; };
+		0A3264FE1D11718900D23AE3 /* MBProgressHUD+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XMG.m"; sourceTree = "<group>"; };
+		0A3264FF1D11718900D23AE3 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		0A3265001D11718900D23AE3 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0A3265011D11718900D23AE3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A3264BA1D11712500D23AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3264B41D11712500D23AE3 = {
+			isa = PBXGroup;
+			children = (
+				0A3264BF1D11712500D23AE3 /* contacts */,
+				0A3264BE1D11712500D23AE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A3264BE1D11712500D23AE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264BD1D11712500D23AE3 /* contacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A3264BF1D11712500D23AE3 /* contacts */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264D71D11714C00D23AE3 /* Classes */,
+				0A3264CC1D11712500D23AE3 /* Assets.xcassets */,
+				0A3264CE1D11712500D23AE3 /* LaunchScreen.storyboard */,
+				0A3264D11D11712500D23AE3 /* Info.plist */,
+				0A3264FA1D11715500D23AE3 /* Main.storyboard */,
+				0A3264C01D11712500D23AE3 /* Supporting Files */,
+			);
+			path = contacts;
+			sourceTree = "<group>";
+		};
+		0A3264C01D11712500D23AE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264FC1D11718900D23AE3 /* MBProgressHUD */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A3264D71D11714C00D23AE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264D81D11714C00D23AE3 /* Add */,
+				0A3264DE1D11714C00D23AE3 /* Contact */,
+				0A3264E61D11714C00D23AE3 /* Edit */,
+				0A3264EA1D11714C00D23AE3 /* Login */,
+				0A3264F01D11714C00D23AE3 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0A3264D81D11714C00D23AE3 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264D91D11714C00D23AE3 /* Controller */,
+				0A3264DC1D11714C00D23AE3 /* Model */,
+				0A3264DD1D11714C00D23AE3 /* View */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		0A3264D91D11714C00D23AE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264DA1D11714C00D23AE3 /* KVAddViewController.h */,
+				0A3264DB1D11714C00D23AE3 /* KVAddViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A3264DC1D11714C00D23AE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A3264DD1D11714C00D23AE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A3264DE1D11714C00D23AE3 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264DF1D11714C00D23AE3 /* Controller */,
+				0A3264E21D11714C00D23AE3 /* Model */,
+				0A3264E51D11714C00D23AE3 /* View */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		0A3264DF1D11714C00D23AE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264E01D11714C00D23AE3 /* KVContactViewController.h */,
+				0A3264E11D11714C00D23AE3 /* KVContactViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A3264E21D11714C00D23AE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264E31D11714C00D23AE3 /* KVContact.h */,
+				0A3264E41D11714C00D23AE3 /* KVContact.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A3264E51D11714C00D23AE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A3264E61D11714C00D23AE3 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264E71D11714C00D23AE3 /* Controller */,
+				0A3264E81D11714C00D23AE3 /* Model */,
+				0A3264E91D11714C00D23AE3 /* View */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		0A3264E71D11714C00D23AE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A3264E81D11714C00D23AE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A3264E91D11714C00D23AE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A3264EA1D11714C00D23AE3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264EB1D11714C00D23AE3 /* Controller */,
+				0A3264EE1D11714C00D23AE3 /* Model */,
+				0A3264EF1D11714C00D23AE3 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0A3264EB1D11714C00D23AE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264EC1D11714C00D23AE3 /* KVLoginViewController.h */,
+				0A3264ED1D11714C00D23AE3 /* KVLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A3264EE1D11714C00D23AE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A3264EF1D11714C00D23AE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A3264F01D11714C00D23AE3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264F11D11714C00D23AE3 /* AppDelegate.h */,
+				0A3264F21D11714C00D23AE3 /* AppDelegate.m */,
+				0A3264F31D11714C00D23AE3 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A3264FC1D11718900D23AE3 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0A3264FD1D11718900D23AE3 /* MBProgressHUD+XMG.h */,
+				0A3264FE1D11718900D23AE3 /* MBProgressHUD+XMG.m */,
+				0A3264FF1D11718900D23AE3 /* MBProgressHUD.bundle */,
+				0A3265001D11718900D23AE3 /* MBProgressHUD.h */,
+				0A3265011D11718900D23AE3 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A3264BC1D11712500D23AE3 /* contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3264D41D11712500D23AE3 /* Build configuration list for PBXNativeTarget "contacts" */;
+			buildPhases = (
+				0A3264B91D11712500D23AE3 /* Sources */,
+				0A3264BA1D11712500D23AE3 /* Frameworks */,
+				0A3264BB1D11712500D23AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = contacts;
+			productName = contacts;
+			productReference = 0A3264BD1D11712500D23AE3 /* contacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A3264B51D11712500D23AE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					0A3264BC1D11712500D23AE3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A3264B81D11712500D23AE3 /* Build configuration list for PBXProject "contacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A3264B41D11712500D23AE3;
+			productRefGroup = 0A3264BE1D11712500D23AE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A3264BC1D11712500D23AE3 /* contacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A3264BB1D11712500D23AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3264D01D11712500D23AE3 /* LaunchScreen.storyboard in Resources */,
+				0A3265031D11718900D23AE3 /* MBProgressHUD.bundle in Resources */,
+				0A3264CD1D11712500D23AE3 /* Assets.xcassets in Resources */,
+				0A3264FB1D11715500D23AE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A3264B91D11712500D23AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3265021D11718900D23AE3 /* MBProgressHUD+XMG.m in Sources */,
+				0A3264F51D11714C00D23AE3 /* KVContactViewController.m in Sources */,
+				0A3264F41D11714C00D23AE3 /* KVAddViewController.m in Sources */,
+				0A3264F61D11714C00D23AE3 /* KVContact.m in Sources */,
+				0A3264F71D11714C00D23AE3 /* KVLoginViewController.m in Sources */,
+				0A3264F91D11714C00D23AE3 /* main.m in Sources */,
+				0A3264F81D11714C00D23AE3 /* AppDelegate.m in Sources */,
+				0A3265041D11718900D23AE3 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A3264CE1D11712500D23AE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A3264CF1D11712500D23AE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A3264D21D11712500D23AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A3264D31D11712500D23AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A3264D51D11712500D23AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = contacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KV.contacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A3264D61D11712500D23AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = contacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KV.contacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A3264B81D11712500D23AE3 /* Build configuration list for PBXProject "contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3264D21D11712500D23AE3 /* Debug */,
+				0A3264D31D11712500D23AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3264D41D11712500D23AE3 /* Build configuration list for PBXNativeTarget "contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3264D51D11712500D23AE3 /* Debug */,
+				0A3264D61D11712500D23AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A3264B51D11712500D23AE3 /* Project object */;
+}
