@@ -992,6 +992,7 @@
 				0AA524381D056DD100E76CCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0ACBBB2B1CEBEE3200309F7A /* Build configuration list for PBXNativeTarget "tableView" */ = {
 			isa = XCConfigurationList;

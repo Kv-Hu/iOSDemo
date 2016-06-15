@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>contacts.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>iOSDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -118,6 +123,11 @@
 			<true/>
 		</dict>
 		<key>0AA5FFE61CF4683E00620D26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AAC50341D113F8400FBA39B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
