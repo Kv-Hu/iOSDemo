@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  lottery
+//
+//  Created by Kevin on 16/7/18.
+//  Copyright © 2016年 Kevin. All rights reserved.
+//
+
+
+#import "UIImage+KVImge.h"
+
+#import "UIView+Frame.h"
+
+
+#define KVKeyWindow  [UIApplication sharedApplication].keyWindow
+#define KVScreenBounds [UIScreen mainScreen].bounds
+#define KVScreenWith KVScreenBounds.size.width
+#define KVScreenHeight KVScreenBounds.size.height
+#define KVColor(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
