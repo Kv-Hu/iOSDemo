@@ -8,7 +8,12 @@
 
 #import "KVMyLotteryViewController.h"
 
+#import "KVTSettingViewController.h"
+
+#import "KVHistoryViewController.h"
+
 @interface KVMyLotteryViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 
 @end
 
@@ -18,6 +23,15 @@
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
     [self setUpNav];
+    
+    UIImage *image = _loginBtn.currentBackgroundImage;
+   image = [image stretchableImageWithLeftCapWidth:image.size.width*0.5 topCapHeight:image.size.height*0.5];
+    [_loginBtn setBackgroundImage:image forState:UIControlStateNormal];
+ 
+ 
+    
+    
+    
 }
 
 //设置导航条
@@ -39,8 +53,26 @@
 }
 
 -(void)setting{
+    
+    KVTSettingViewController *settingVc = [[KVTSettingViewController alloc]initWithStyle:UITableViewStyleGrouped];
+    
+//     settingVc.hidesBottomBarWhenPushed = YES;
+//    
+//    UIImage *backImage = [UIImage imageNamed:@"NavBack"];
+//    backImage = [backImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+//    
+//    settingVc.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:backImage style:UIBarButtonItemStylePlain target:self action:@selector(back)];
+    
+    
+    [self.navigationController pushViewController:settingVc animated:YES];
+    
+    
+    }
 
-    NSLog(@"点击了设置按钮");
+-(void)back{
+
+    [self.navigationController popViewControllerAnimated:YES];
+   
 }
 
 - (void)didReceiveMemoryWarning {
