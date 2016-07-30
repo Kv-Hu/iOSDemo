@@ -9,21 +9,20 @@
 #import "KVPushViewController.h"
 #import "KVBasciViewController.h"
 
+#import "KVScoreViewController.h"
+
+
 
 @interface KVPushViewController ()
-
-
 
 @end
 
 @implementation KVPushViewController
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    self.view.backgroundColor = [UIColor redColor];
-    
-    
+
     [self group1];
 }
 
@@ -32,7 +31,9 @@
 
     KVArrowSettingCellItem *arrowItem =[KVArrowSettingCellItem itemWithImage:[UIImage imageNamed:@"sound_Effect"] andTitle:@"音乐"];
     
-    KVArrowSettingCellItem *arrowItem1 =[KVArrowSettingCellItem itemWithImage:[UIImage imageNamed:@"sound_Effect"] andTitle:@"音乐"];
+    KVArrowSettingCellItem *arrowItem1 =[KVArrowSettingCellItem itemWithImage:[UIImage imageNamed:@"sound_Effect"] andTitle:@"比分直播"];
+    arrowItem1.destVc = [KVScoreViewController class];
+    
     
     KVArrowSettingCellItem *arrowItem2 =[KVArrowSettingCellItem itemWithImage:[UIImage imageNamed:@"sound_Effect"] andTitle:@"音乐"];
    
@@ -46,13 +47,13 @@
 
 
 
-
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-
-
-}
+//
+//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+//
+//    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+//
+//
+//}
 
 
 

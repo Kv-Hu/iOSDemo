@@ -10,6 +10,7 @@
 #import "KVArrowSettingCellItem.h"
 #import "KVGroupItem.h"
 #import "KVSettingCell.h"
+#import "KVSwitchSettingCellItem.h"
 
 @interface KVBasciViewController : UITableViewController
 

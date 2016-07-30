@@ -13,29 +13,40 @@
 		0A1214971D38CF7400AE145E /* KVArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1214961D38CF7400AE145E /* KVArenaViewController.m */; };
 		0A12149A1D38CF8E00AE145E /* KVMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1214991D38CF8E00AE145E /* KVMyLotteryViewController.m */; };
 		0A12149D1D38CFAB00AE145E /* KVHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A12149C1D38CFAB00AE145E /* KVHistoryViewController.m */; };
-		0A1214A01D38CFCB00AE145E /* KVDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A12149F1D38CFCB00AE145E /* KVDiscoverViewController.m */; };
 		0A2A61871D49FF61000A9F7B /* KVBasciViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A61861D49FF61000A9F7B /* KVBasciViewController.m */; };
+		0A2A618A1D4B8A0C000A9F7B /* KVScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A61891D4B8A0C000A9F7B /* KVScoreViewController.m */; };
 		0A4166441D388EC100C10774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4166431D388EC100C10774 /* Assets.xcassets */; };
 		0A4166471D388EC100C10774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4166451D388EC100C10774 /* LaunchScreen.storyboard */; };
 		0A4166821D3893F200C10774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4166801D3893F200C10774 /* AppDelegate.m */; };
 		0A4166831D3893F200C10774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4166811D3893F200C10774 /* main.m */; };
-		0A43BEFD1D3F73EC00F0CDF3 /* KVButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43BEFC1D3F73EC00F0CDF3 /* KVButton.m */; };
 		0A43BF001D3F7A8E00F0CDF3 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43BEFF1D3F7A8E00F0CDF3 /* UIView+Frame.m */; };
 		0A6D89E81D3CB5CF007C412D /* KVCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D89E71D3CB5CE007C412D /* KVCover.m */; };
 		0A6D89EB1D3CBA8D007C412D /* KVActiveMeum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D89EA1D3CBA8D007C412D /* KVActiveMeum.m */; };
 		0A6D89EF1D3CBB3F007C412D /* KVActiveMeum.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6D89EE1D3CBB3F007C412D /* KVActiveMeum.xib */; };
 		0A6D89F21D3DB142007C412D /* KVMeumItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D89F11D3DB142007C412D /* KVMeumItem.m */; };
 		0A6D89F61D3DB4F4007C412D /* KVDownMeum.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D89F51D3DB4F4007C412D /* KVDownMeum.m */; };
-		0A7EA47B1D3F9C39004C7778 /* KVLuckyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7EA47A1D3F9C39004C7778 /* KVLuckyView.m */; };
-		0A7EA47E1D3F9E19004C7778 /* KVLuckyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7EA47D1D3F9E19004C7778 /* KVLuckyViewController.m */; };
 		0A7F7E781D41C39200351209 /* KVTSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F7E771D41C39200351209 /* KVTSettingViewController.m */; };
 		0A7F7E9E1D463D9800351209 /* KVSettingCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F7E9D1D463D9800351209 /* KVSettingCellItem.m */; };
 		0A7F7EA11D46FA4000351209 /* KVGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F7EA01D46FA4000351209 /* KVGroupItem.m */; };
 		0A7F7EA71D474B9900351209 /* KVArrowSettingCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F7EA61D474B9900351209 /* KVArrowSettingCellItem.m */; };
 		0A7F7EAA1D474BB200351209 /* KVSwitchSettingCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F7EA91D474BB200351209 /* KVSwitchSettingCellItem.m */; };
 		0A7F7EAD1D4750A300351209 /* KVSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F7EAC1D4750A300351209 /* KVSettingCell.m */; };
+		0AA3244B1D4C496D00412D31 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AA324331D4C496C00412D31 /* Info.plist */; };
+		0AA3244C1D4C496D00412D31 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA324351D4C496C00412D31 /* MASCompositeConstraint.m */; };
+		0AA3244D1D4C496D00412D31 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA324381D4C496C00412D31 /* MASConstraint.m */; };
+		0AA3244E1D4C496D00412D31 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3243A1D4C496C00412D31 /* MASConstraintMaker.m */; };
+		0AA3244F1D4C496D00412D31 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3243C1D4C496C00412D31 /* MASLayoutConstraint.m */; };
+		0AA324501D4C496D00412D31 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA324401D4C496C00412D31 /* MASViewAttribute.m */; };
+		0AA324511D4C496D00412D31 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA324421D4C496C00412D31 /* MASViewConstraint.m */; };
+		0AA324521D4C496D00412D31 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA324441D4C496C00412D31 /* NSArray+MASAdditions.m */; };
+		0AA324531D4C496D00412D31 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA324471D4C496C00412D31 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0AA324541D4C496D00412D31 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA324491D4C496C00412D31 /* View+MASAdditions.m */; };
 		0AA46B921D40C68A00739171 /* KVMyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA46B911D40C68A00739171 /* KVMyLotteryViewController.xib */; };
 		0AC924B11D3C81A500BEBAE9 /* UIImage+KVImge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC924B01D3C81A500BEBAE9 /* UIImage+KVImge.m */; };
+		0AD40E8E1D4CA4E4004470CA /* KVDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD40E861D4CA4E4004470CA /* KVDiscoverViewController.m */; };
+		0AD40E8F1D4CA4E4004470CA /* KVDiscoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD40E871D4CA4E4004470CA /* KVDiscoverViewController.storyboard */; };
+		0AD40E901D4CA4E4004470CA /* KVDiscoverCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD40E8A1D4CA4E4004470CA /* KVDiscoverCellItem.m */; };
+		0AD40E911D4CA4E4004470CA /* KVDiscoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD40E8D1D4CA4E4004470CA /* KVDiscoverCell.m */; };
 		0ADA23EA1D39BF7900F83D53 /* KVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA23E91D39BF7900F83D53 /* KVTabBar.m */; };
 		0ADA23ED1D3A2B5A00F83D53 /* KVNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA23EC1D3A2B5A00F83D53 /* KVNavigationController.m */; };
 		0AF4A6D11D48575D003676BE /* DRNRealTimeBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4A6A11D48575C003676BE /* DRNRealTimeBlurView.m */; };
@@ -45,8 +56,6 @@
 		0AFBA89F1D48E1A200005E4C /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0AFBA89B1D48E1A200005E4C /* MBProgressHUD.bundle */; };
 		0AFBA8A01D48E1A200005E4C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFBA89D1D48E1A200005E4C /* MBProgressHUD.m */; };
 		0AFBA8A41D49E21C00005E4C /* KVPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFBA8A31D49E21C00005E4C /* KVPushViewController.m */; };
-		0AFF30E81D3F5E3D00F1D6C1 /* KVDiscoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF30E71D3F5E3D00F1D6C1 /* KVDiscoverViewController.storyboard */; };
-		0AFF30EB1D3F6C0400F1D6C1 /* KVGroupBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF30EA1D3F6C0400F1D6C1 /* KVGroupBuyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,10 +71,10 @@
 		0A1214991D38CF8E00AE145E /* KVMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMyLotteryViewController.m; sourceTree = "<group>"; };
 		0A12149B1D38CFAB00AE145E /* KVHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVHistoryViewController.h; sourceTree = "<group>"; };
 		0A12149C1D38CFAB00AE145E /* KVHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVHistoryViewController.m; sourceTree = "<group>"; };
-		0A12149E1D38CFCB00AE145E /* KVDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVDiscoverViewController.h; sourceTree = "<group>"; };
-		0A12149F1D38CFCB00AE145E /* KVDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVDiscoverViewController.m; sourceTree = "<group>"; };
 		0A2A61851D49FF61000A9F7B /* KVBasciViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVBasciViewController.h; sourceTree = "<group>"; };
 		0A2A61861D49FF61000A9F7B /* KVBasciViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVBasciViewController.m; sourceTree = "<group>"; };
+		0A2A61881D4B8A0C000A9F7B /* KVScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVScoreViewController.h; sourceTree = "<group>"; };
+		0A2A61891D4B8A0C000A9F7B /* KVScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVScoreViewController.m; sourceTree = "<group>"; };
 		0A4166341D388EC100C10774 /* lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4166431D388EC100C10774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A4166461D388EC100C10774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,8 +82,6 @@
 		0A41667F1D3893F200C10774 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A4166801D3893F200C10774 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0A4166811D3893F200C10774 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0A43BEFB1D3F73EC00F0CDF3 /* KVButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVButton.h; sourceTree = "<group>"; };
-		0A43BEFC1D3F73EC00F0CDF3 /* KVButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVButton.m; sourceTree = "<group>"; };
 		0A43BEFE1D3F7A8E00F0CDF3 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		0A43BEFF1D3F7A8E00F0CDF3 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		0A6D89E61D3CB5CE007C412D /* KVCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCover.h; sourceTree = "<group>"; };
@@ -86,10 +93,6 @@
 		0A6D89F11D3DB142007C412D /* KVMeumItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMeumItem.m; sourceTree = "<group>"; };
 		0A6D89F41D3DB4F4007C412D /* KVDownMeum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVDownMeum.h; sourceTree = "<group>"; };
 		0A6D89F51D3DB4F4007C412D /* KVDownMeum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVDownMeum.m; sourceTree = "<group>"; };
-		0A7EA4791D3F9C39004C7778 /* KVLuckyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVLuckyView.h; sourceTree = "<group>"; };
-		0A7EA47A1D3F9C39004C7778 /* KVLuckyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVLuckyView.m; sourceTree = "<group>"; };
-		0A7EA47C1D3F9E19004C7778 /* KVLuckyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVLuckyViewController.h; sourceTree = "<group>"; };
-		0A7EA47D1D3F9E19004C7778 /* KVLuckyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVLuckyViewController.m; sourceTree = "<group>"; };
 		0A7F7E761D41C39200351209 /* KVTSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVTSettingViewController.h; sourceTree = "<group>"; };
 		0A7F7E771D41C39200351209 /* KVTSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVTSettingViewController.m; sourceTree = "<group>"; };
 		0A7F7E9C1D463D9800351209 /* KVSettingCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVSettingCellItem.h; sourceTree = "<group>"; };
@@ -102,10 +105,41 @@
 		0A7F7EA91D474BB200351209 /* KVSwitchSettingCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVSwitchSettingCellItem.m; sourceTree = "<group>"; };
 		0A7F7EAB1D4750A300351209 /* KVSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVSettingCell.h; sourceTree = "<group>"; };
 		0A7F7EAC1D4750A300351209 /* KVSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVSettingCell.m; sourceTree = "<group>"; };
+		0AA324331D4C496C00412D31 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA324341D4C496C00412D31 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0AA324351D4C496C00412D31 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0AA324361D4C496C00412D31 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		0AA324371D4C496C00412D31 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		0AA324381D4C496C00412D31 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		0AA324391D4C496C00412D31 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		0AA3243A1D4C496C00412D31 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		0AA3243B1D4C496C00412D31 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		0AA3243C1D4C496C00412D31 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		0AA3243D1D4C496C00412D31 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		0AA3243E1D4C496C00412D31 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		0AA3243F1D4C496C00412D31 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		0AA324401D4C496C00412D31 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		0AA324411D4C496C00412D31 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		0AA324421D4C496C00412D31 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		0AA324431D4C496C00412D31 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		0AA324441D4C496C00412D31 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		0AA324451D4C496C00412D31 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0AA324461D4C496C00412D31 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		0AA324471D4C496C00412D31 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		0AA324481D4C496C00412D31 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		0AA324491D4C496C00412D31 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		0AA3244A1D4C496C00412D31 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		0AA46B911D40C68A00739171 /* KVMyLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVMyLotteryViewController.xib; sourceTree = "<group>"; };
 		0AC924AF1D3C81A500BEBAE9 /* UIImage+KVImge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KVImge.h"; sourceTree = "<group>"; };
 		0AC924B01D3C81A500BEBAE9 /* UIImage+KVImge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KVImge.m"; sourceTree = "<group>"; };
 		0AC924B21D3C89EC00BEBAE9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0AD40E851D4CA4E4004470CA /* KVDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVDiscoverViewController.h; sourceTree = "<group>"; };
+		0AD40E861D4CA4E4004470CA /* KVDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVDiscoverViewController.m; sourceTree = "<group>"; };
+		0AD40E871D4CA4E4004470CA /* KVDiscoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KVDiscoverViewController.storyboard; sourceTree = "<group>"; };
+		0AD40E891D4CA4E4004470CA /* KVDiscoverCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVDiscoverCellItem.h; sourceTree = "<group>"; };
+		0AD40E8A1D4CA4E4004470CA /* KVDiscoverCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVDiscoverCellItem.m; sourceTree = "<group>"; };
+		0AD40E8C1D4CA4E4004470CA /* KVDiscoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVDiscoverCell.h; sourceTree = "<group>"; };
+		0AD40E8D1D4CA4E4004470CA /* KVDiscoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVDiscoverCell.m; sourceTree = "<group>"; };
 		0ADA23E81D39BF7900F83D53 /* KVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVTabBar.h; sourceTree = "<group>"; };
 		0ADA23E91D39BF7900F83D53 /* KVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVTabBar.m; sourceTree = "<group>"; };
 		0ADA23EB1D3A2B5A00F83D53 /* KVNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVNavigationController.h; sourceTree = "<group>"; };
@@ -123,9 +157,6 @@
 		0AFBA89D1D48E1A200005E4C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		0AFBA8A21D49E21C00005E4C /* KVPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVPushViewController.h; sourceTree = "<group>"; };
 		0AFBA8A31D49E21C00005E4C /* KVPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVPushViewController.m; sourceTree = "<group>"; };
-		0AFF30E71D3F5E3D00F1D6C1 /* KVDiscoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KVDiscoverViewController.storyboard; sourceTree = "<group>"; };
-		0AFF30E91D3F6C0400F1D6C1 /* KVGroupBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVGroupBuyViewController.h; sourceTree = "<group>"; };
-		0AFF30EA1D3F6C0400F1D6C1 /* KVGroupBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVGroupBuyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,9 +243,9 @@
 		0A4166691D3893F200C10774 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0AD40E831D4CA4E4004470CA /* Discover */,
 				0A7F7E721D41C35A00351209 /* Setting */,
 				0A1214911D38CF2D00AE145E /* Arena */,
-				0A41666A1D3893F200C10774 /* Discover */,
 				0A41666E1D3893F200C10774 /* Hall */,
 				0A4166721D3893F200C10774 /* History */,
 				0A4166761D3893F200C10774 /* Main */,
@@ -222,48 +253,6 @@
 				0A41667E1D3893F200C10774 /* Other */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		0A41666A1D3893F200C10774 /* Discover */ = {
-			isa = PBXGroup;
-			children = (
-				0A41666B1D3893F200C10774 /* Controller */,
-				0A41666C1D3893F200C10774 /* Model */,
-				0A41666D1D3893F200C10774 /* View */,
-			);
-			path = Discover;
-			sourceTree = "<group>";
-		};
-		0A41666B1D3893F200C10774 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				0A12149E1D38CFCB00AE145E /* KVDiscoverViewController.h */,
-				0A12149F1D38CFCB00AE145E /* KVDiscoverViewController.m */,
-				0AFF30E71D3F5E3D00F1D6C1 /* KVDiscoverViewController.storyboard */,
-				0AFF30E91D3F6C0400F1D6C1 /* KVGroupBuyViewController.h */,
-				0AFF30EA1D3F6C0400F1D6C1 /* KVGroupBuyViewController.m */,
-				0A7EA47C1D3F9E19004C7778 /* KVLuckyViewController.h */,
-				0A7EA47D1D3F9E19004C7778 /* KVLuckyViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		0A41666C1D3893F200C10774 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		0A41666D1D3893F200C10774 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				0A43BEFB1D3F73EC00F0CDF3 /* KVButton.h */,
-				0A43BEFC1D3F73EC00F0CDF3 /* KVButton.m */,
-				0A7EA4791D3F9C39004C7778 /* KVLuckyView.h */,
-				0A7EA47A1D3F9C39004C7778 /* KVLuckyView.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		0A41666E1D3893F200C10774 /* Hall */ = {
@@ -415,6 +404,7 @@
 		0A41667E1D3893F200C10774 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				0AA324321D4C496C00412D31 /* Masonry */,
 				0AFBA8981D48E1A200005E4C /* MBProgressHUD */,
 				0AF4A69F1D48575C003676BE /* DRNRealTimeBlurView */,
 				0AC924AE1D3C818100BEBAE9 /* Category */,
@@ -474,6 +464,37 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		0AA324321D4C496C00412D31 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				0AA324331D4C496C00412D31 /* Info.plist */,
+				0AA324341D4C496C00412D31 /* MASCompositeConstraint.h */,
+				0AA324351D4C496C00412D31 /* MASCompositeConstraint.m */,
+				0AA324361D4C496C00412D31 /* MASConstraint+Private.h */,
+				0AA324371D4C496C00412D31 /* MASConstraint.h */,
+				0AA324381D4C496C00412D31 /* MASConstraint.m */,
+				0AA324391D4C496C00412D31 /* MASConstraintMaker.h */,
+				0AA3243A1D4C496C00412D31 /* MASConstraintMaker.m */,
+				0AA3243B1D4C496C00412D31 /* MASLayoutConstraint.h */,
+				0AA3243C1D4C496C00412D31 /* MASLayoutConstraint.m */,
+				0AA3243D1D4C496C00412D31 /* Masonry.h */,
+				0AA3243E1D4C496C00412D31 /* MASUtilities.h */,
+				0AA3243F1D4C496C00412D31 /* MASViewAttribute.h */,
+				0AA324401D4C496C00412D31 /* MASViewAttribute.m */,
+				0AA324411D4C496C00412D31 /* MASViewConstraint.h */,
+				0AA324421D4C496C00412D31 /* MASViewConstraint.m */,
+				0AA324431D4C496C00412D31 /* NSArray+MASAdditions.h */,
+				0AA324441D4C496C00412D31 /* NSArray+MASAdditions.m */,
+				0AA324451D4C496C00412D31 /* NSArray+MASShorthandAdditions.h */,
+				0AA324461D4C496C00412D31 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				0AA324471D4C496C00412D31 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				0AA324481D4C496C00412D31 /* View+MASAdditions.h */,
+				0AA324491D4C496C00412D31 /* View+MASAdditions.m */,
+				0AA3244A1D4C496C00412D31 /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		0AC924AE1D3C818100BEBAE9 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -483,6 +504,44 @@
 				0A43BEFF1D3F7A8E00F0CDF3 /* UIView+Frame.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		0AD40E831D4CA4E4004470CA /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				0AD40E841D4CA4E4004470CA /* Controller */,
+				0AD40E881D4CA4E4004470CA /* Model */,
+				0AD40E8B1D4CA4E4004470CA /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		0AD40E841D4CA4E4004470CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AD40E851D4CA4E4004470CA /* KVDiscoverViewController.h */,
+				0AD40E861D4CA4E4004470CA /* KVDiscoverViewController.m */,
+				0AD40E871D4CA4E4004470CA /* KVDiscoverViewController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0AD40E881D4CA4E4004470CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AD40E891D4CA4E4004470CA /* KVDiscoverCellItem.h */,
+				0AD40E8A1D4CA4E4004470CA /* KVDiscoverCellItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AD40E8B1D4CA4E4004470CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AD40E8C1D4CA4E4004470CA /* KVDiscoverCell.h */,
+				0AD40E8D1D4CA4E4004470CA /* KVDiscoverCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		0AF4A69F1D48575C003676BE /* DRNRealTimeBlurView */ = {
@@ -513,6 +572,8 @@
 			children = (
 				0AFBA8A21D49E21C00005E4C /* KVPushViewController.h */,
 				0AFBA8A31D49E21C00005E4C /* KVPushViewController.m */,
+				0A2A61881D4B8A0C000A9F7B /* KVScoreViewController.h */,
+				0A2A61891D4B8A0C000A9F7B /* KVScoreViewController.m */,
 			);
 			path = Push;
 			sourceTree = "<group>";
@@ -576,11 +637,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A4166471D388EC100C10774 /* LaunchScreen.storyboard in Resources */,
-				0AFF30E81D3F5E3D00F1D6C1 /* KVDiscoverViewController.storyboard in Resources */,
 				0AA46B921D40C68A00739171 /* KVMyLotteryViewController.xib in Resources */,
 				0A6D89EF1D3CBB3F007C412D /* KVActiveMeum.xib in Resources */,
 				0A4166441D388EC100C10774 /* Assets.xcassets in Resources */,
 				0AFBA89F1D48E1A200005E4C /* MBProgressHUD.bundle in Resources */,
+				0AA3244B1D4C496D00412D31 /* Info.plist in Resources */,
+				0AD40E8F1D4CA4E4004470CA /* KVDiscoverViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,36 +653,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA324531D4C496D00412D31 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				0AD40E911D4CA4E4004470CA /* KVDiscoverCell.m in Sources */,
 				0A6D89F61D3DB4F4007C412D /* KVDownMeum.m in Sources */,
 				0AC924B11D3C81A500BEBAE9 /* UIImage+KVImge.m in Sources */,
 				0A7F7E9E1D463D9800351209 /* KVSettingCellItem.m in Sources */,
 				0AF4A6D11D48575D003676BE /* DRNRealTimeBlurView.m in Sources */,
+				0AA3244C1D4C496D00412D31 /* MASCompositeConstraint.m in Sources */,
+				0AA324501D4C496D00412D31 /* MASViewAttribute.m in Sources */,
 				0A08D0AB1D3F0FA8008C0228 /* KVArenaNavController.m in Sources */,
 				0AFBA89E1D48E1A200005E4C /* MBProgressHUD+XMG.m in Sources */,
 				0A4166831D3893F200C10774 /* main.m in Sources */,
+				0AA3244D1D4C496D00412D31 /* MASConstraint.m in Sources */,
 				0A12149D1D38CFAB00AE145E /* KVHistoryViewController.m in Sources */,
 				0A1214971D38CF7400AE145E /* KVArenaViewController.m in Sources */,
 				0A6D89EB1D3CBA8D007C412D /* KVActiveMeum.m in Sources */,
 				0A7F7EA71D474B9900351209 /* KVArrowSettingCellItem.m in Sources */,
-				0AFF30EB1D3F6C0400F1D6C1 /* KVGroupBuyViewController.m in Sources */,
+				0AA324521D4C496D00412D31 /* NSArray+MASAdditions.m in Sources */,
 				0ADA23EA1D39BF7900F83D53 /* KVTabBar.m in Sources */,
 				0A7F7EAD1D4750A300351209 /* KVSettingCell.m in Sources */,
 				0AFBA8A41D49E21C00005E4C /* KVPushViewController.m in Sources */,
 				0ADA23ED1D3A2B5A00F83D53 /* KVNavigationController.m in Sources */,
+				0AD40E8E1D4CA4E4004470CA /* KVDiscoverViewController.m in Sources */,
 				0AFBA8A01D48E1A200005E4C /* MBProgressHUD.m in Sources */,
+				0AA3244F1D4C496D00412D31 /* MASLayoutConstraint.m in Sources */,
+				0A2A618A1D4B8A0C000A9F7B /* KVScoreViewController.m in Sources */,
 				0A43BF001D3F7A8E00F0CDF3 /* UIView+Frame.m in Sources */,
 				0A7F7E781D41C39200351209 /* KVTSettingViewController.m in Sources */,
 				0A7F7EA11D46FA4000351209 /* KVGroupItem.m in Sources */,
 				0A4166821D3893F200C10774 /* AppDelegate.m in Sources */,
-				0A7EA47B1D3F9C39004C7778 /* KVLuckyView.m in Sources */,
-				0A7EA47E1D3F9E19004C7778 /* KVLuckyViewController.m in Sources */,
-				0A1214A01D38CFCB00AE145E /* KVDiscoverViewController.m in Sources */,
+				0AA324541D4C496D00412D31 /* View+MASAdditions.m in Sources */,
 				0A2A61871D49FF61000A9F7B /* KVBasciViewController.m in Sources */,
 				0AF4A6D21D48575D003676BE /* UIImage+BoxBlur.m in Sources */,
+				0AD40E901D4CA4E4004470CA /* KVDiscoverCellItem.m in Sources */,
 				0AF4A6FC1D4857D5003676BE /* KVBlurView.m in Sources */,
 				0A6D89E81D3CB5CF007C412D /* KVCover.m in Sources */,
+				0AA324511D4C496D00412D31 /* MASViewConstraint.m in Sources */,
 				0A12149A1D38CF8E00AE145E /* KVMyLotteryViewController.m in Sources */,
-				0A43BEFD1D3F73EC00F0CDF3 /* KVButton.m in Sources */,
+				0AA3244E1D4C496D00412D31 /* MASConstraintMaker.m in Sources */,
 				0A1214901D38CECB00AE145E /* KVHallViewController.m in Sources */,
 				0A12148D1D38C93A00AE145E /* KVTabBarController.m in Sources */,
 				0A7F7EAA1D474BB200351209 /* KVSwitchSettingCellItem.m in Sources */,

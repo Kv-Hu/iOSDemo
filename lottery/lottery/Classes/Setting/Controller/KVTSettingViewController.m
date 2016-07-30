@@ -111,32 +111,6 @@
 }
 
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    KVGroupItem *group = self.groups[indexPath.section];
-    KVSettingCellItem *item = group.items[indexPath.row];
-    
-    //判断block块有没有值，如果有，执行block
-    if (item.itemOpreation) {
-        item.itemOpreation();
-    }
-    
-    //判断所点击的这一行 是不是KVArrowSettingCellItem类，如果是，判断arrowItem.className有没有值，如果有值 则执行跳转
-    if ([item isKindOfClass:[KVArrowSettingCellItem class]]) {
-        KVArrowSettingCellItem *arrowItem = (KVArrowSettingCellItem *)item;
-        if (arrowItem.destVc) {
-            
-     UIViewController *vc = [[arrowItem.destVc alloc]init];
-            
-            [self.navigationController pushViewController:vc animated:YES];
-      
-        }
-    }
-}
-
-
 
 
 @end

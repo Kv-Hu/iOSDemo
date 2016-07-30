@@ -108,9 +108,10 @@
     
 #warning TODO 为什么将storyBoard的class设置成KVDiscoverController就不行？？？？？？？？？？？？？？？
     //发现
-    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"KVDiscoverViewController" bundle:nil];
-    
-    KVDiscoverViewController *discoverVc = [storyBoard instantiateInitialViewController];
+//    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"KVDiscoverViewController" bundle:nil];
+//    
+//    KVDiscoverViewController *discoverVc = [storyBoard instantiateInitialViewController];
+     KVDiscoverViewController *discoverVc = [[KVDiscoverViewController alloc]initWithStyle:UITableViewStyleGrouped];
     [self setUpOneChildViewController:discoverVc withImage:[UIImage imageNamed:@"TabBar_Discovery_new"] andSelectImage:[UIImage imageNamed:@"TabBar_Discovery_selected_new"] andTitle:@"发现"];
     
     //开奖信息
