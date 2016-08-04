@@ -11,6 +11,7 @@
 @interface KVActiveMeum : UIView
 
 +(instancetype)activeMeum;
+
 +(void)show;
 
 @end

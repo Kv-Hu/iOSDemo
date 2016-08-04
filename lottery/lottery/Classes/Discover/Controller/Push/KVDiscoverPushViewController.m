@@ -1,90 +1,27 @@
 //
-//  KVHallViewController.m
+//  KVDiscoverPushViewController.m
 //  lottery
 //
-//  Created by Kevin on 16/7/15.
+//  Created by Kevin on 16/7/30.
 //  Copyright © 2016年 Kevin. All rights reserved.
 //
 
-#import "KVHallViewController.h"
-#import "KVCover.h"
-#import "KVActiveMeum.h"
-#import "KVDownMeum.h"
-#import "KVMeumItem.h"
+#import "KVDiscoverPushViewController.h"
 
-
-
-@interface KVHallViewController ()
-
-@property(nonatomic,weak)KVDownMeum *downMeum;
-
-@property(nonatomic,assign)BOOL isPopMeum;
+@interface KVDiscoverPushViewController ()
 
 @end
 
-
-@implementation KVHallViewController
-
--(KVDownMeum *)downMeum{
-
-    if (_downMeum == nil) {
-        
-        KVMeumItem *item = [KVMeumItem meumItemWith:[UIImage imageNamed:@"Development"] title:nil];
-        KVMeumItem *item1 = [KVMeumItem meumItemWith:[UIImage imageNamed:@"Development"] title:nil];
-        KVMeumItem *item2= [KVMeumItem meumItemWith:[UIImage imageNamed:@"Development"] title:nil];
-        KVMeumItem *item3 = [KVMeumItem meumItemWith:[UIImage imageNamed:@"Development"] title:nil];
-        KVMeumItem *item4 = [KVMeumItem meumItemWith:[UIImage imageNamed:@"Development"] title:nil];
-        KVMeumItem *item5 = [KVMeumItem meumItemWith:[UIImage imageNamed:@"Development"] title:nil];
-        NSArray *array = @[item,item1,item2,item3,item4,item5];
-        
-        _downMeum = [KVDownMeum showInView:self.view items:array andOriginY:0];
-  
-    }
-
-    return _downMeum;
-}
+@implementation KVDiscoverPushViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self setUpNav];
-
-}
-
-#pragma mark - 设置导航条左右按钮
--(void)setUpNav{
+    // Uncomment the following line to preserve selection between presentations.
+    // self.clearsSelectionOnViewWillAppear = NO;
     
-//设置导航条左边按钮
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageWithOrigin:@"CS50_activity_image"] style:UIBarButtonItemStylePlain target:self action:@selector(active)];
-    
-    //设置导航条右边按钮
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageWithOrigin:@"Development"] style:UIBarButtonItemStylePlain target:self action:@selector(popMeum)];
-}
-
-#pragma mark - 点击下拉按钮
--(void)popMeum{
-    
-    if (_isPopMeum == NO) {
-        //懒加载，调用downMeum的getter方法
-        [self downMeum];
-    }else{
-        [_downMeum hide];
-        
-    }
-        
-    _isPopMeum = !_isPopMeum;
-    
-    
-}
-
-
-//点击了活动按钮
-
--(void)active{
-    
-    [KVCover show];
-    [KVActiveMeum show];
-
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {

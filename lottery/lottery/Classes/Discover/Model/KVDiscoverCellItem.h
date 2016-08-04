@@ -17,6 +17,8 @@
 
 @property(nonatomic,strong)NSString *text;
 
+@property(nonatomic,strong)void(^itemOperation)();
+
 
 +(instancetype)itemWithTitleImage:(UIImage *)image iconImage:(UIImage *)iconImage andText:(NSString *)text;
 @end

@@ -10,6 +10,8 @@
 #import "KVDiscoverViewController.h"
 #import "KVDiscoverCellItem.h"
 #import "KVDiscoverCell.h"
+#import "KVDiscoverPushViewController.h"
+#import "KVDiscover2PushViewController.h"
 
 @interface KVDiscoverViewController ()
 
@@ -46,8 +48,16 @@
 -(void)setUpGroup1{
 
     KVDiscoverCellItem *item = [KVDiscoverCellItem itemWithTitleImage:[UIImage imageNamed:@"discovery_groupBuy_title"] iconImage:[UIImage imageNamed:@"discovery_groupBuy_icon"] andText:@"跟着高手买，奖金一起分"];
+    item.itemOperation = ^{
     
-
+        KVDiscoverPushViewController *pushVc = [[KVDiscoverPushViewController alloc]init];
+    
+        [self.navigationController pushViewController:pushVc animated:YES];
+    
+    
+    };
+    
+    
     NSArray *group = @[item];
     
     [self.groups addObject:group];
@@ -58,6 +68,16 @@
 -(void)setUpGroup2{
     
     KVDiscoverCellItem *item = [KVDiscoverCellItem itemWithTitleImage:[UIImage imageNamed:@"discovery_groupBuy_title"] iconImage:[UIImage imageNamed:@"discovery_groupBuy_icon"] andText:@"跟着高手买，奖金一起分"];
+    
+    item.itemOperation = ^{
+        
+        KVDiscover2PushViewController *pushVc = [[KVDiscover2PushViewController alloc]init];
+        
+        [self.navigationController pushViewController:pushVc animated:YES];
+        
+        
+    };
+    
     
     
     NSArray *group = @[item];
@@ -123,9 +143,30 @@
 
 
 }
+
+
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
     return 80;
+
+
+}
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    //取出哪一组
+    NSArray *group = self.groups[indexPath.section];
+    //取出哪一行
+    KVDiscoverCellItem *item = group[0];
+    
+
+    if (item.itemOperation) {
+        
+        item.itemOperation();
+        
+        
+    }
 
 
 }
